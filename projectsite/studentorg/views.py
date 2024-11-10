@@ -6,6 +6,12 @@ from studentorg.forms import OrganizationForm
 from django.urls import reverse_lazy
 
 
+
+
+
+def profile(request):
+    return render(request, 'profile.html')
+
 class HomePageView(ListView):
     model = Organization
     context_object_name = 'home'
