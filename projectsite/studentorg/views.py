@@ -311,3 +311,4 @@ class CollegeDeleteView(DeleteView):
 #        
 #        # Call the parent's post() if validation passes
 #        return super().post(request, *args, **kwargs)
+
